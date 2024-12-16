@@ -37,7 +37,7 @@ VALUES ('20162430634','0','周华强','男','2016-9','计算机科学与技术',
 DROP TABLE IF EXISTS `score`;
 CREATE TABLE `score` (
   `id` varchar(50) NOT NULL,
-  `datebase` varchar(50) DEFAULT '',
+  `database` varchar(50) DEFAULT '',
   `android` varchar(50) DEFAULT '',
   `jsp` varchar(50) DEFAULT '',
   PRIMARY KEY (`id`)
